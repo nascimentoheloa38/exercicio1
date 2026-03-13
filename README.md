@@ -1,4 +1,3 @@
-# exercicio1
 #include <stdio.h>
 
 int main(){
@@ -11,8 +10,9 @@ int main(){
     letra = 'D';
     
     printf ("Numero:%d \n ",numero) ;
-    printf ("Valor:%f \n",valor) ;
+    printf ("Valor: %.2f \n ",valor) ;
     printf ("Letra:%c \n",letra) ;
 
     return 0;
 }
+
