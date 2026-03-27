@@ -43,3 +43,27 @@ int main(){
     
     return 0;
 }
+
+
+exercicio 2 
+#include <stdio.h>
+
+int main()
+{
+      float r, area;
+      float pi =  3.14159;
+    printf ("digite o raio:");
+    scanf ("%f", &r);
+    
+    if(r < 0) {
+       printf ("Erro: O raio não pode ser negativo.\n");
+       } else{
+           area = pi * r * r;
+           printf ("a area do circulo é: %.2f\n", area);
+           
+           
+       }
+
+    return 0;
+}
+    
